@@ -1,1 +1,35 @@
-echo '<!DOCTYPE html><html><head><title>Hello</title></head><body><h1>It works!</h1></body></html>' > index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenSuite</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffffff;
+    }
+
+    img {
+      max-width: 480px;
+      width: 90%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <img src="images/greensuite.png" alt="GreenSuite">
+</body>
+</html>
