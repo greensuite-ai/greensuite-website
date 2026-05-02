@@ -24,8 +24,10 @@
     main {
       flex: 1;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      padding: 24px;
     }
 
     img {
@@ -33,6 +35,17 @@
       width: 90%;
       height: auto;
       transform: rotate(90deg);
+    }
+
+    .tagline {
+      max-width: 640px;
+      width: 90%;
+      margin-top: 32px;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #333;
     }
 
     footer {
@@ -47,6 +60,7 @@
 <body>
   <main>
     <img src="images/greensuite.png" alt="GreenSuite">
+    <p class="tagline">A new development platform for agentic and other AI tools to improve water technology and sustainability solutions. Watch this space for updates and opportunities.</p>
   </main>
   <footer>
     <div>Copyright 2026. <a href="https://gwtr.com">Global Water Technologies</a>. All Rights Reserved.</div>
